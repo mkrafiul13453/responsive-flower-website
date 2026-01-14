@@ -48,6 +48,9 @@
     font-size: 2rem;
     font-weight: 600;
 }
+.hide{
+    display: none;
+}
 /* ///////////////////////////////////////////////  Main style  ////////////////////////////////////////////////////////////////////// */
 /* ///////////////////////////////////////////////  Header Style  ////////////////////////////////////////////////////////////////////// */
 header{
@@ -268,4 +271,118 @@ header{
 
 
 
+/* ///////////////////////////////////////////////  responsive for mobile device  ////////////////////////////////////////////////////////////////////// */
 
+@media screen and (max-width:576px) {
+    .header-text{
+        padding-left: 0px;
+    }
+
+    .header-text h1 {
+    font-size: 2.7rem;
+    font-weight: 500;
+    }
+
+    .full-header {
+    flex-direction: column;    
+    }
+
+    
+.btn {
+    width: 100px;
+    height: 40px;
+    padding: 10px;
+    font-size: medium;
+
+    }
+    .header-photo {
+    padding-top: 50px;
+    padding-right: 0px;
+    /* width: 100%; */
+}   
+
+    .header-photo img {
+        width: 100%;
+}
+
+.header-text p {
+    font-size: 0.9rem
+   
+}
+
+.flower-box-tittle h1 {
+    font-size: 2rem;
+    font-weight: 700;
+}
+
+.all-service-card{
+    padding: 0px;
+}
+
+.featured-flower-style{
+    padding-top: 50px;
+}
+.service-box {
+    padding-top: 50px;
+}
+
+.hot-deal{
+    margin-top: 40px;
+}
+
+.hot-deal-box{
+    flex-direction: column;
+}
+
+.instagram {
+    margin-top: 50px;
+}
+
+.insta-box{
+    grid-template-columns: repeat(2,1fr);
+}
+
+.insta-box-card img{
+    width: 100%;
+}
+
+.message-section{
+    margin-top: 50px;
+}
+
+
+.message-section h1 {
+    padding-top: 20px;
+}
+
+.message-section h6{
+    padding-bottom: 15px;
+}
+
+.message-area{
+    padding-bottom: 20px;
+}
+
+.message-area textarea {
+    width: 500px;
+    height: 40px;
+    padding: 10px;
+}
+
+.footer {
+    margin-top: 50px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    text-align: center;
+    background-color: black;
+}
+
+.footer p {
+    font-size: 14px;
+}
+
+.footer h1 {
+    padding-bottom: 10px;
+  
+}
+}
