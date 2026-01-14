@@ -195,8 +195,76 @@ header{
 }
 
 /* ///////////////////////////////////////////////  Latest deal style  ////////////////////////////////////////////////////////////////////// */
+.message-section{
+    text-align: center;
+    margin-top: 125px;
+    background-image: url(./Rectangle\ 9.png);
+}
+
+.message-section h1{
+    padding-top: 125px;
+    
+}
+
+.message-section h6{
+    padding-bottom: 45px;
+    font-size: medium;
+    padding-top: 10px;
+    color: rgba(39, 39, 39, 0.6);
+}
+
+.message-area textarea{
+    width: 500px;
+    height: 70px;
+    border-radius: 10px;
+    padding: 20px;
+    border: none;
+    
+    
+}
+.message-area{
+    display: flex;  
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    padding-bottom: 60px;
+    
+   
+     
+}
+
+.message-area button{
+    margin-bottom: 20px;
+}
+
+
+
 /* ///////////////////////////////////////////////  Footer style  ////////////////////////////////////////////////////////////////////// */
 
+.footer{
+    margin-top: 120px;
+    padding-top: 80px;
+    padding-bottom: 80px;
+    text-align: center;
+    background-color: black;
+}
+.footer h1{
+    padding-bottom: 30px;
+    color: white;
+}
+
+.footer p{
+    color: white;
+}
+#flw{
+    color: red;
+}
+
+.footer h6{
+    padding-top: 20px;
+    padding-bottom: 15px;
+    color: white;
+}
 
 
 
